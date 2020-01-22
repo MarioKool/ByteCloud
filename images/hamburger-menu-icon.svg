@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="17" viewBox="0 0 24 17">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="17" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="hamburger-menu-icon" transform="translate(-314 -20)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(314 20)" clip-path="url(#clip-path)">
+      <g transform="translate(-297 -20)">
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="24" height="4" rx="2" transform="translate(297 20)" fill="#8a8888"/>
+      </g>
+      <g transform="translate(-297 -14)">
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="24" height="4" rx="2" transform="translate(297 20)" fill="#8a8888"/>
+      </g>
+      <g transform="translate(-297 -8)">
+        <rect id="Rectangle_9-3" data-name="Rectangle 9" width="24" height="4" rx="2" transform="translate(297 20)" fill="#8a8888"/>
+      </g>
+    </g>
+  </g>
+</svg>

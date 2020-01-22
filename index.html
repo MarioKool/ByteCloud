@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mario Kool">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent sed ipsum eget diam dignissim ullamcorper. Quisque porta mattis mi, ut ultricies mi.
+    Fusce sapien nisi, iaculis a nisl eu, euismod dictum eros. In hac habitasse platea dictumst.">
+    <title>ByteCloud - The World Leading Online Data Storage</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="images/logo-top.svg" alt="ByteCloud logo" class="bytecloud-logo" height="22" width="90" >
+        <nav>
+          <a href="#" class="hide-desktop">
+            <img src="images/hamburger-menu-icon.svg" alt="Menu icon" class="menu-icon" id="menu-icon" height="22" width="22">
+          </a>
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit-menu" class="exit-button hide-desktop"><a href="#"><img src="images/exit-menu-icon.svg" alt="exit" height="22" width="22"> </a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <img src="images/bytecloud-hero.svg" alt="ByteCloud hero graphic" class="bytecloud-hero" height="225" width="125">
+          <h1>The World Leading Online Data Storage</h1>
+          <p class="sub-heading">Store all your files securely in the cloud.</p>
+          <img src="images/scroll-down-icon.svg" alt="Scroll down" class="scroll-icon hide-mobile show-desktop" width="24" height="37">
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="container">
+          <ul class="features-list">
+            <li>
+              <img src="images/lock-icon.svg" alt="Lock icon"  width="51" height="51">
+              <h2>Secure</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat gravida nisi. Class aptent taciti sociosqu ad litora torquent per </p>
+            </li>
+            <li>
+              <img src="images/available-icon.svg" alt="Availability icon" width="51" height="51">
+              <h2>Available</h2>
+              <p>Nunc tristique vel magna egestas accumsan. Aliquam congue quis neque quis eleifend. Pellentesque semper ex a venenatis iaculis.</p>
+            </li>
+            <li>
+              <img src="images/wallet-icon.svg" alt="Affordability icon" width="51" height="51">
+              <h2>Affordable</h2>
+              <p>Aliquam ut quam orci. Maecenas ullamcorper non orci eu sagittis. Phasellus varius at eros sit amet volutpat. Pellentesque finibus a eros </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="subscribe-section">
+        <div class="container">
+          <p>Start your free trial now!</p>
+          <a href="#" class="subscribe-button">SIGN UP</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <img src="images/logo-bottom.svg" alt="ByteCloud logo" class="bytecloud-logo" width="90" height="22">
+        <p>Tartu, Estonia <br> 2019</p>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Customer Support</a></li>
+        </ul>
+        <p class="disclaimer-text">
+          Disclaimer: <br>
+          following website has been created only for educational purposes. <br>
+          Advertised services are not available. <br>
+          Creator of the website is Mario Kool, for contact please send an email at Mario.Kool1996@gmail.com. <br>
+          Thank you.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      let menuButton = document.getElementById('menu-icon');
+      let navigation = document.getElementById('nav');
+      let exitButton = document.getElementById('exit-menu');
+
+      menuButton.addEventListener('click', function(e) {
+        navigation.classList.toggle('hide-mobile');
+        e.preventDefault();
+      });
+
+      exitButton.addEventListener('click', function(e) {
+        navigation.classList.add('hide-mobile');
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
